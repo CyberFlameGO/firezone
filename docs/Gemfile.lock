@@ -241,9 +241,11 @@ GEM
       jekyll-seo-tag (~> 2.1)
     minitest (5.15.0)
     multipart-post (2.1.1)
-    nokogiri (1.13.0-arm64-darwin)
+    nokogiri (1.15.3-arm64-darwin)
       racc (~> 1.4)
-    nokogiri (1.13.0-x86_64-darwin)
+    nokogiri (1.15.3-x86_64-darwin)
+      racc (~> 1.4)
+    nokogiri (1.15.3-x86_64-linux)
       racc (~> 1.4)
     octokit (4.21.0)
       faraday (>= 0.9)
@@ -251,7 +253,7 @@ GEM
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
     public_suffix (4.0.6)
-    racc (1.6.0)
+    racc (1.7.1)
     rake (13.0.6)
     rb-fsevent (0.11.0)
     rb-inotify (0.10.1)
@@ -290,6 +292,7 @@ PLATFORMS
   arm64-darwin-20
   arm64-darwin-21
   x86_64-darwin-21
+  x86_64-linux
 
 DEPENDENCIES
   github-pages
